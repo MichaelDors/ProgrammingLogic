@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
   class Program
   {
@@ -17,7 +17,7 @@
       Console.WriteLine("My favorite number is " + favoriteNumber);
       string favoriteProgrammingLanguage = "JavaScript";
       Console.WriteLine(favoriteProgrammingLanguage + " is my favorite programming language I've worked with.");
-      double numberOfPrograms = 11.0;
+      double numberOfPrograms = 11.0d;
       Console.WriteLine("I've probably written around " + numberOfPrograms + " programs, but that's a rough estimate.");
       bool programmingExperience = true;
       Console.WriteLine("It's " + programmingExperience + " that I have some programming experience.");
@@ -26,7 +26,7 @@
       const string myCollegeName = "Cuyahoga Community College";
       Console.WriteLine("I attend " + myHighSchoolName + ", but also " + myCollegeName + " for some classes through Dual Enrollment");
       //Step 5 - type casting
-    double doubleValue = 9.78;
+    double doubleValue = 9.78d;
     int intValue = (int)doubleValue;
     string stringFromInt = Convert.ToString(intValue);
     string stringFromBool = Convert.ToString(programmingExperience);
@@ -63,7 +63,7 @@
     Console.WriteLine("num2 Modulus result: " + num2 + " % 2 = " + (num2 % 2));
     //Step 8
     float floatValue = 1.123456789f;
-    double doubleValue2 = 1.123456789;
+    double doubleValue2 = 1.123456789d;
     
     Console.WriteLine("Float value: " + floatValue);
     Console.WriteLine("Double value: " + doubleValue2);
