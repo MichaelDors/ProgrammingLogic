@@ -53,7 +53,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Enter a number from 1 to 7.");
+            Console.WriteLine("Invalid entry");
         }
 
         //Problem 7: Favorite Books and Authors
